@@ -1,5 +1,5 @@
 .App__Card {
-  border: 1px solid black;
+  border: 1px solid darkgreen;
   border-radius: 10px;
   padding: 1rem;
   margin: 1rem;
@@ -13,7 +13,7 @@
 }
 
 .App__Header {
-  background-color: #282c34;
+  background-color: darkgreen;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,8 @@
 }
 
 .App__Navigation {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: darkgreen;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
