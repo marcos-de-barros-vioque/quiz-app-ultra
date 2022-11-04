@@ -10,8 +10,6 @@ export default function App() {
       <Header />
       <main className="App__Card">
       <Card />
-      <Card />
-      <Card />
       </main>
       <div className="App__Navigation">
       <Navigation />
