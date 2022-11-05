@@ -1,14 +1,13 @@
 import "./Navigation.css";
+import React from 'react';
 
 export default function Navigation(props) {
     return (
       <nav className="navbar">
+        <ul>
+        <li>
         <a 
         href="#home"
-        onClick={() => props.handleClickPage("home")}
-        style={{
-          backgroundColor: props.page === "home" ? "blue" : "red",
-        }}
         >
           <img
             src={
@@ -20,12 +19,10 @@ export default function Navigation(props) {
             width="40px"
           />
         </a>
+        </li>
+        <li>
         <a 
         href="#bookmark"
-        onClick={() => props.handleClickPage("bookmark")}
-        style={{
-          backgroundColor: props.page === "bookmark" ? "blue" : "red",
-        }}
         >
           <img
             src={
@@ -37,12 +34,10 @@ export default function Navigation(props) {
             width="40px"
           />
         </a>
+        </li>
+        <li>
         <a 
         href="#form"
-        onClick={() => props.handleClickPage("form")}
-        style={{
-          backgroundColor: props.page === "form" ? "blue" : "red",
-        }}
         >
           <img
             src={
@@ -54,12 +49,10 @@ export default function Navigation(props) {
             width="40px"
           />
         </a>
+        </li>
+        <li>
         <a 
         href="#profile"
-        onClick={() => props.handleClickPage("profile")}
-        style={{
-          backgroundColor: props.page === "profile" ? "blue" : "red",
-        }}
         >
           <img
             src={
@@ -71,6 +64,8 @@ export default function Navigation(props) {
             width="40px"
             />
         </a>
+        </li>
+        </ul>
        </nav>
     );
 }
