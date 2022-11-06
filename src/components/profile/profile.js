@@ -1,12 +1,13 @@
 import React from "react";
 import "./profile.css";
 
-export default function Profile(props) {
+export default function Profile(active) {
   return (
     <section
       id="profile"
-      style={{ display: props.page === "profile" ? "block" : "none" }}
+      style={{ display: active.page === "profile" ? "block" : "none" }}
     >
+    <p>Coming soon...</p>
     </section>
   );
 }
