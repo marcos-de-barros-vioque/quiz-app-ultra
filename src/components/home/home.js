@@ -5,9 +5,14 @@ import CardContainer from "../../components/CardContainer/CardContainer";
 
 export default function Home() {
     return (
-        <main className="App__Card">
+        <section
+        id="home"
+        style={{ display: active.page === "home" ? "block" : "none" }}
+        >
+        <div className="App__Card">
             <CardContainer questioncards={Cardscontent} />
-        </main>
+        </div>
+        </section>
     )
 }
 //export default function Home() {
