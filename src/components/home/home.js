@@ -3,7 +3,7 @@ import "./home.css";
 import { Cardscontent } from "../../input/Cardscontent";
 import CardContainer from "../../components/CardContainer/CardContainer";
 
-export default function Home() {
+export default function Home(active) {
     return (
         <section
         id="home"
