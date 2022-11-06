@@ -3,10 +3,10 @@ import "./CardContainer.css";
 
 import Card from "../../components/card/Card";
 
-export default function CardContainer({ questions }) {
+export default function CardContainer({ questioncards }) {
     return (
         <div className="App__Card">
-            {questions.map(({ title, question, answer }) => (
+            {questioncards.map(({ title, question, answer }) => (
                 <Card title={title} question={question} answer={answer} />
             ))}
         </div>

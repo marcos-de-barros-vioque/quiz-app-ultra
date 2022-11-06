@@ -7,7 +7,7 @@ export default function Form(active) {
       id="form"
       style={{ display: active.page === "form" ? "block" : "none" }}
     >
-    <p>Coming soon...</p>
+    <p>This page is under construction...</p>
     </section>
   );
 }

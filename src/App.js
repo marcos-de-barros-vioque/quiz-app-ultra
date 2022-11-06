@@ -1,13 +1,11 @@
 import React from 'react';
 import "./App.css";
-//import { Cardscontent } from "./input/Cardscontent";
-//import Card from "./components/card/Card";
 import Header from "./components/header/Header";
 import Navigation from "./components/navigation/Navigation";
+import Home from "./components/home/home";
 import Bookmark from "./components/bookmark/bookmark";
 import Form from "./components/form/form";
 import Profile from "./components/profile/profile";
-import Home from "./components/home/home";
 import { useState } from 'react';
 
 export default function App() {

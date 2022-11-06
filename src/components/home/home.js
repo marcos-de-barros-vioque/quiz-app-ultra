@@ -6,7 +6,7 @@ import CardContainer from "../../components/CardContainer/CardContainer";
 export default function Home() {
     return (
         <main className="App__Card">
-            <CardContainer questions={Cardscontent} />
+            <CardContainer questioncards={Cardscontent} />
         </main>
     )
 }
