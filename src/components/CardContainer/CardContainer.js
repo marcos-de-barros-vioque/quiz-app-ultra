@@ -2,7 +2,6 @@ import React from 'react';
 import "./CardContainer.css";
 
 import Card from "../../components/card/Card";
-import { Cardscontent } from "../../input/Cardscontent";
 
 export default function CardContainer({ questioncards }) {
     return (

@@ -1,4 +1,4 @@
-export const Cardscontent = [
+export const cards = [
 {
 title: "Starting with HTML",
 question: "Is HTML an easy language?",

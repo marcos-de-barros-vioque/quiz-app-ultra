@@ -1,16 +1,17 @@
 import React from 'react';
 import "./home.css";
-import { Cardscontent } from "../../input/Cardscontent";
+
 import CardContainer from "../../components/CardContainer/CardContainer";
 
-export default function Home(active) {
+export default function Home(props) {
+    console.log(props.cards)
     return (
         <section
         id="home"
-        style={{ display: active.page === "home" ? "block" : "none" }}
+        style={{ display: props.page === "home" ? "block" : "none" }}
         >
-        <div className="App__Card">
-            <CardContainer questioncards={Cardscontent} />
+        <div>
+            <CardContainer questioncards={props.cards} />
         </div>
         </section>
     )

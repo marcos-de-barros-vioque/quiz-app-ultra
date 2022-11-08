@@ -7,18 +7,21 @@ import Bookmark from "./components/bookmark/bookmark";
 import Form from "./components/form/form";
 import Profile from "./components/profile/profile";
 import { useState } from 'react';
+import { cards as initialCards } from "./input/cards";
 
 export default function App() {
-  const [page, setPage] = useState();
+  const [page, setPage] = useState("home");
+  const [cards, setCards] = useState(initialCards)
+  console.log(cards)
   const handleClickPage = (page) => {
     setPage(page);
   };
   return (
     <main className="App__Header">
       <Header />
-      <div className="App__Card">
-      <Home page={page} setPage={setPage} />
-      <Bookmark page={page} setPage={setPage} />
+      <div>
+      <Home page={page} setPage={setPage} cards={cards} setCards={setCards} />
+      <Bookmark page={page} setPage={setPage} cards={cards} setCards={setCards}/>
       <Form page={page} setPage={setPage} />
       <Profile page={page} setPage={setPage} />
       </div>
