@@ -7,7 +7,20 @@ export default function Form(props) {
       id="form"
       style={{ display: props.page === "form" ? "block" : "none" }}
     >
-    <p>This page is under construction...</p>
+    <form className="Formcontainer">
+      <h3>Create a new card</h3>
+      <label>Question</label>
+      <textarea
+        placeholder="Type here your question..."
+      >
+      </textarea>
+      <label>Answer</label>
+      <textarea
+        placeholder="Type here the answer..."
+      >
+      </textarea>
+      <button>Submit</button>
+    </form>
     </section>
   );
 }

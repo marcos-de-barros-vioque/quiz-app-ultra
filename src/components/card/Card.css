@@ -1,10 +1,11 @@
 .Cardcontainer {
-  background-color: darkred;
+  border: 5px solid darkred;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1rem;
+  gap: 2rem;
+  align-items: center;
 }
 
 .Cardcontainer h2 {
@@ -19,25 +20,12 @@
 }
 
 .Answerbutton {
-  margin: 5px 200px 5px 200px;
+  margin: 5px 100px 5px 100px;
+  padding: 10px 10px 10px 10px;
 }
 
 .hidden {
   display: none;
-}
-
-.App__Card {
-  border: 1px solid darkgreen;
-  border-radius: 10px;
-  padding: 1rem;
-  margin: 1rem;
-  width: 80%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
 }
 
 .Cardtags {

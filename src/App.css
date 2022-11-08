@@ -1,30 +1,15 @@
-.App__Card {
-  border: 1px solid darkgreen;
-  border-radius: 10px;
-  padding: 1rem;
-  margin: 1rem;
-  width: 80%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-}
-
 .App__Header {
-  background-color: darkgreen;
+  background-color: darkred;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App__Navigation {
-  background-color: darkgreen;
+  background-color: darkred;
   min-height: 20vh;
   display: flex;
   font-size: calc(10px + 2vmin);
