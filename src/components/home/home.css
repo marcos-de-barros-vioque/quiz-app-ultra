@@ -1,13 +1,13 @@
 .App__Card {
-    border: 1px solid darkgreen;
-    border-radius: 10px;
-    padding: 1rem;
-    margin: 1rem;
-    width: 80%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-  }
+  border: 1px solid darkgreen;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
