@@ -11,11 +11,10 @@
   margin: 0;
 }
 
-.Cardtags {
+.Tagscontainer {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2px;
+  justify-content: center;
+  gap: 10px;
   padding-left: 2px;
 }
 
@@ -39,4 +38,9 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+.Cardtags {
+  padding: 5px;
+  margin: 5px;
 }
