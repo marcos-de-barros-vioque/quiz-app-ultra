@@ -17,6 +17,12 @@ export default function Card({ title, question, answer, isBookmarked }) {
         {hide ? "Show Answer" : "Hide Answer"}
        </button>
        <p className={hide ? "hidden" : "answer"}>{answer}</p>
+       <div className="Tagscontainer">
+       <button className="Cardtags">#html</button>
+       <button className="Cardtags">#css</button>
+       <button className="Cardtags">#js</button>
+       <button className="Cardtags">#react</button>
+       </div>
     </article>
     );
   }
