@@ -9,6 +9,11 @@ export default function Form(props) {
     >
     <form className="Formcontainer">
       <h3>Create a new card</h3>
+      <label>Title</label>
+      <textarea
+        placeholder="Type here the title..."
+      >
+      </textarea>
       <label>Question</label>
       <textarea
         placeholder="Type here your question..."
